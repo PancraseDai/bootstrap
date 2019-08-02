@@ -1,0 +1,30 @@
+.container-small{
+  max-width: 500px;
+  margin-top: 50px;
+}
+.container-small form{
+  margin-top: 25px;
+}
+.container-small small{
+  font-size: 20px;
+}
+.container-small a{
+  text-decoration: none;
+}
+.container-small .form-check{
+  margin-left: 20px;
+}
+.container-small .reset{
+  margin-left: 20px;
+}
+.container .footer{
+  margin-top: 50px;
+  text-align: center;
+}
+.container .footer a{
+  color: #212529;
+  text-decoration: none
+}
+.container .footer a:hover{
+  color: #337ab7;
+}

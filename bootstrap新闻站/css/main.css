@@ -1,0 +1,127 @@
+
+img{
+  display: block;
+  max-width: 100%;
+  max-height: 100px;
+}
+img, .side-bar .listgroup-item,
+.side-bar-text-card,.side-bar-card{
+  border-radius: 3px;
+}
+
+
+.side-bar .list-group-item{
+  border: 0;
+  border-radius: 3px;
+}
+.side-bar a:link{
+  text-decoration: none;
+}
+
+.news .title{
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+  display: block;
+  color: #444;
+}
+
+.news{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+}
+.news:first-child{
+  padding-top: 0;
+}
+
+.news a:hover{
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.news .info{
+  color:#888;
+}
+
+.avatar{
+  display: inline-block;
+}
+.avatar img{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.side-bar-card{
+  margin-top: 15px;
+  padding: 20 0px;
+}
+.side-bar-card .text-lg {
+  font-size: 150%;
+  margin-top: 30px;
+}
+.side-bar-card .text-lg a{
+  color: #444;
+  text-decoration: none;
+}
+.side-bar-card .text-lg a:hover{
+  color: #337ab7;
+}
+.side-bar-text-card{
+  background: rgba(0, 0, 0, 0.05);
+}
+.side-bar-text-card .card-title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.side-bar-text-card .card-title,
+.side-bar-text-card .card-body .list .item{
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.side-bar-text-card .card-body .list .item:hover{
+  background: rgba(0, 0, 0, 0.1);
+}
+.side-bar-text-card .card-title{
+  padding-top: 15px;
+}
+.side-bar-text-card .card-title a{
+  color: #444;
+  text-decoration: none;
+}
+.side-bar-text-card .card-title a:hover{
+  color: #337ab7;
+}
+.side-bar-text-card .card-body .item{
+  padding-top: 15px;
+}
+.side-bar-text-card .card-body .title a{
+  text-decoration: none;
+}
+.side-bar-text-card .card-body .desc{
+  color:#999;
+}
+.side-bar-text-card .card-body .desc a{
+  color: #999;
+  text-decoration: none;
+}
+.side-bar-text-card .card-body .desc a:hover{
+  color: #337ab7;
+}
+
+.container .footer{
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
+.container .footer a{
+  text-decoration: none;
+  color:#999;
+}
+.container .footer a:hover{
+  color: #337ab7;
+}

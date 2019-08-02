@@ -1,0 +1,67 @@
+img,.container .side-bar-card .card-body{
+  border-radius: 3px;
+}
+
+.container .row .news-title{
+  line-height: 1.5;
+}
+.container .row .news-status a{
+  text-decoration: none;
+  color: #999;
+}
+.container .row .news-status a:hover{
+  color: #337ab7;
+}
+.container .row .news-status .badge{
+  opacity: .7;
+}
+.container .row .news-content{
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.container .row .news-content img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+.container .side-bar-card .card-title{
+  text-align: center;
+}
+.container .side-bar-card .card-body{
+  background: #eee;
+}
+.container .side-bar-card .card-body .item{
+  margin-top: 10px;
+}
+.container .side-bar-card .card-body .item:hover{
+  background: rgba(0, 0, 0, 0.05);
+}
+.container .side-bar-card .card-body .item img{
+  display: block;
+  max-width: 100%;
+}
+.container .side-bar-card .card-body .item a{
+  text-decoration: none;
+  color: #212529;
+}
+.container .side-bar-card .card-body .item a:hover{
+  color: #337ab7;
+}
+.container .side-bar-card .card-body .item .no-padding-h{
+  padding-right: 0;
+  padding-right: 0;
+}
+.container .footer{
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
+.container .footer a{
+  text-decoration: none;
+  color:#999;
+}
+.container .footer a:hover{
+  color: #337ab7;
+}
